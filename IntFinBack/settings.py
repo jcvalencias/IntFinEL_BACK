@@ -73,6 +73,8 @@ REST_FRAMEWORK = {
     )
 }
 
+AUTH_USER_MODEL = 'authApp.User'
+
 ROOT_URLCONF = 'IntFinBack.urls'
 
 TEMPLATES = [
