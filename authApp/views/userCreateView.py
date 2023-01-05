@@ -4,7 +4,7 @@ from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
 
 from authApp.serializers.userSerializer import UserSerializer
 
-class UserCreateWiew(views.APIWiew):
+class UserCreateView(views.APIView):
 
     def post(self, request, *args, **kwargs):
         serializer = UserSerializer(data=request.data)
