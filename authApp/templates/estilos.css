@@ -34,24 +34,26 @@ h1 {
 input[type="text"],
 input[type="password"] {
     font-size: 20px;
-    width: 82%;
+    width: 80%;
     padding: 10px;
     border: none;
 }
 
 
 .input-contenedor {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     border: 1px solid #aaa;
 }
 
 
 .icon {
+    font-size: 20px;
     min-width: 50px;
     text-align: center;
     color: #999;
 }
 
+/* 
 .button {
     border: none;
     width: 100%;
@@ -91,4 +93,4 @@ p {
         margin-block-end: 150px;
         border-radius: 2%;
     }
-}
+} */
